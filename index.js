@@ -10,7 +10,7 @@ const authRoutes = require('./routes/auth');
 const app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:3000', // React app running on localhost:3000
+  origin: 'https://marketplacetask.netlify.app/', // React app running on localhost:3000
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 };
